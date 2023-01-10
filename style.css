@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    position: absolute;
+    top: 1vw;
+    font-size: 7vw;
+    width: 100%;
+    text-align: center;
+    
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background-color:blue;
+    color: white;
+}
+.section {
+    display: flex;
+    justify-content:  space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4vw;
+    background-color: gray;
+}
+.section img {
+    max-width: 100%;
+}
+.icon {
+    width: 50px;
+}
+
+
+footer {
+    background-color:blue;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-top: 0.7rem;
+}
